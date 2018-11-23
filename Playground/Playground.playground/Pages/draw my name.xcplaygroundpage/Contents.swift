@@ -21,5 +21,14 @@ canvas.drawing { t in
     
     t.upperCaseO()
     
-
+    //lowercase s
+    t.setHeading(73)
+    
+    //draw swoosh up
+    t.penColor(.black)
+    t.curve(withSides: -60, withSize: 10, drawSides: 10)
+    
+    //curve down
+    t.setHeading(130)
+    t.curve(withSides: 19, withSize: 12.5, drawSides: 11)
 }

@@ -11,5 +11,8 @@
         <page name='draw my name'/>
         <page name='Move By Tests'/>
         <page name='Untitled Page'/>
+        <page name='Line art 1'/>
+        <page name='Line art 2'/>
+        <page name='Line art 3'/>
     </pages>
 </playground>

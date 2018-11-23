@@ -57,8 +57,10 @@ public extension Tortoise {
         self.curve(withSides: -30, withSize: 12, drawSides: 10)
 
         //get back to the bottom of the line
-        self.moveBy(x: -54, y: 110)
+        self.moveBy(x: -54, y: -110)
         self.setHeading(90)
     }
-
+//    func randomLines (lineSize size: Double) {
+//        let xPos = self.rand
+//    }
 }
