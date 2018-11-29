@@ -3,7 +3,7 @@ import TortoiseGraphics
 import CoreGraphics
 
 let canvas = PlaygroundCanvas(frame: CGRect(x: 0, y: 0, width: 500, height: 500))
-canvas.frameRate = 1000
+canvas.frameRate = 5000
 canvas.color = .white
 PlaygroundPage.current.liveView = canvas
 

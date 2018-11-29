@@ -21,14 +21,88 @@ canvas.drawing { t in
     
     t.upperCaseO()
     
-    //lowercase s
+   //t.lowerCaseS()
     t.setHeading(73)
     
     //draw swoosh up
     t.penColor(.black)
-    t.curve(withSides: -60, withSize: 10, drawSides: 10)
+    t.curve(withSides: -60, withSize: 10.0, drawSides: 10)
     
     //curve down
     t.setHeading(130)
     t.curve(withSides: 19, withSize: 12.5, drawSides: 11)
+    t.moveBy(x: 50, y: -10)
+    t.setHeading(90)
+    
+    //lowercase m
+    t.setHeading(79)
+    
+    //swoosh up
+    t.moveBy(x: -5, y: -8)
+    t.curve(withSides: -40, withSize: 9.0, drawSides: 10)
+    
+    //loop down
+    t.setHeading(80)
+    t.curve(withSides: 45, withSize: 2.0, drawSides: 10)
+    
+    //straight line down
+    t.setHeading(180)
+    t.curve(withSides: 1, withSize: 5.65, drawSides: 10)
+    
+    //curve
+    t.penUp()
+    t.moveBy(x: 0, y: 55)
+    t.setHeading(80)
+    t.penDown()
+    t.curve(withSides: 20, withSize: 10.0, drawSides: 5)
+    
+    //straight line down
+    t.setHeading(180)
+    t.curve(withSides: 1, withSize: 3.65, drawSides: 10)
+    
+    //curve
+    t.moveBy(x: 0, y: 39)
+    t.setHeading(30)
+    t.curve(withSides: 10, withSize: 13.0, drawSides: 5)
+    
+    //straight line down
+    t.setHeading(180)
+    t.curve(withSides: 1, withSize: 3.25, drawSides: 10)
+    
+    //lowercase a
+    t.moveBy(x: 0, y: 3)
+    t.setHeading(73)
+    t.curve(withSides: -53, withSize: 7.5, drawSides: 8)
+    
+    //curve up
+    t.curve(withSides: 19, withSize: 7.5, drawSides: 7)
+   
+    //loop down
+    t.setHeading(180)
+    t.curve(withSides: 38, withSize: 7.5, drawSides: 6)
+    
+    //loop back
+    t.curve(withSides: 15, withSize: 7.5, drawSides: 8)
+    
+    //lowercase n
+    t.moveBy(x: 35, y: -15)
+    t.curve(withSides: -50, withSize: 7.0, drawSides: 8)
+    
+    //loop down
+    t.setHeading(80)
+    t.curve(withSides: 45, withSize: 2.0, drawSides: 10)
+    
+    //straight line down
+    t.setHeading(180)
+    t.curve(withSides: 20, withSize: 10.0, drawSides: 5)
+    
+    //curve
+    t.penUp()
+    t.moveBy(x: 0, y: 55)
+    t.setHeading(80)
+    t.curve(withSides: 20, withSize: 10, drawSides: 5)
+    
+    //straight line down
+    t.setHeading(180)
+    t.curve(withSides: 1, withSize: 3.65, drawSides: 10)
 }

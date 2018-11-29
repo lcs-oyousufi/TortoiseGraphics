@@ -4,7 +4,7 @@ import CoreGraphics
 
 let myFrame = CGRect(x: 0, y: 0, width: 800, height: 800)
 let canvas = PlaygroundCanvas(frame: myFrame)
-canvas.frameRate = 3000
+canvas.frameRate = 300
 canvas.color = .white
 PlaygroundPage.current.liveView = canvas
 
@@ -51,28 +51,18 @@ canvas.drawing { turtle in
     
     turtle.right(90)
     turtle.penUp()
-    turtle.forward(355)
+    turtle.forward(250)
     turtle.penDown()
     turtle.left(90)
     
-    turtle.penSize(1)
-        arc(with: turtle, radius: 355, angle: 360)
+    arc(with: turtle, radius: 250, angle: 360)
     turtle.hideTortoise()
-    for _ in 1...8 {
-        turtle.penUp()
-        turtle.goto(0, 0)
-        turtle.right(45)
-        turtle.penDown()
-        arc(with: turtle, radius: 150, angle: 360)
-    }
     
-    turtle.penSize(1)
     for _ in 1...8{
-        turtle.goto(0, 0)
-        turtle.right(45)
-        for s in stride(from: 250.0, to: 25.0, by: -25.0) {
-            turtle.square(withSize: s)
+    turtle.goto(0, 0)
+    turtle.right(45)
+    for s in stride(from: 250.0, to: 25.0, by: -25.0) {
+                turtle.square(withSize: s)
         }
     }
 }
-

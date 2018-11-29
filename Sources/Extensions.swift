@@ -60,6 +60,21 @@ public extension Tortoise {
         self.moveBy(x: -54, y: -110)
         self.setHeading(90)
     }
+
+    //func lowerCaseS() {
+        //lowercase s
+        //self.setHeading(73)
+
+        //draw swoosh up
+       //self.penColor(.black)
+       // self.curve(withSides: -60, withSize: 10, drawSides: 10)
+
+        //curve down
+       // self.setHeading(130)
+       //self.curve(withSides: 19, withSize: 12.5, drawSides: 11)
+       // self.moveBy(x: 50, y: -10)
+       // self.setHeading(90)
+   // }
 //    func randomLines (lineSize size: Double) {
 //        let xPos = self.rand
 //    }
